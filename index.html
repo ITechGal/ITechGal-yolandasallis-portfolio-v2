@@ -7,42 +7,41 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- TOP OVAL NAV (NO INITIALS) -->
   <header class="topbar">
-    <div class="brand"></div>
-
-    <nav class="tabs">
-      <button class="tab active" type="button">Tech Work</button>
-      <button class="tab ghost" type="button">Boutique</button>
-    </nav>
-
-    <nav class="navlinks">
-      <a class="pill active" href="#home">Home</a>
-      <a class="pill" href="#about">About</a>
-      <a class="pill" href="#resume">Resume</a>
-    </nav>
+    <div class="topbar-inner">
+      <nav class="pills" aria-label="Primary navigation">
+        <a class="pill active" href="index.html">Home</a>
+        <a class="pill" href="tech-work.html">Tech Work</a>
+        <a class="pill" href="coordinator-projects.html">Coordinator Projects</a>
+      </nav>
+    </div>
   </header>
 
   <main class="wrap" id="home">
+    <!-- HERO -->
     <section class="hero card">
       <div class="hero-left">
-        <div class="eyebrow">PORTFOLIO</div>
+        <div class="kicker">PORTFOLIO</div>
 
         <h1>Your work. <span class="muted">Your stage.</span></h1>
-        <p class="subtitle">Technical Support Specialist & Project Coordinator</p>
+        <p class="sub">Technical Support Specialist • Project Coordinator</p>
 
-        <div class="chip-row">
-          <span class="chip">TECHNICAL SUPPORT</span>
-          <span class="chip dot">•</span>
-          <span class="chip">PROJECT COORDINATION</span>
+        <div class="badges" aria-label="Skills badges">
+          <span class="badge">PHONE</span>
+          <span class="badge">EMAIL</span>
+          <span class="badge">LIVE CHAT</span>
+          <span class="badge">TICKETING</span>
         </div>
 
         <p class="lede">
-          I help customers and teams solve issues fast through clear troubleshooting,
-          strong documentation, and professional communication across phone, email, and live chat.
+          I support customers and teams by troubleshooting issues, documenting clear steps,
+          escalating effectively, and communicating updates professionally.
         </p>
 
-        <div class="cta-row">
-          <a class="btn primary" href="#projects">View Projects</a>
+        <div class="cta">
+          <a class="btn primary" href="coordinator-projects.html">View Projects</a>
           <a class="btn" href="assets/resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
         </div>
       </div>
@@ -54,57 +53,50 @@
       </div>
     </section>
 
-    <section class="grid" id="projects">
-      <div class="card feature">
-        <h3>Multi-channel Support</h3>
-        <p>Phone • Email • Live Chat support</p>
+    <!-- FEATURE CARDS -->
+    <section class="section grid3" aria-label="Highlights">
+      <div class="card tile">
+        <h3>Multi-Channel Support</h3>
+        <p>Phone • Email • Live Chat support with clear, friendly communication.</p>
       </div>
-      <div class="card feature">
+      <div class="card tile">
         <h3>Ticket Documentation</h3>
-        <p>Clear notes, steps taken, resolution, and escalation details</p>
+        <p>Accurate notes, steps taken, resolution summary, and clean handoffs.</p>
       </div>
-      <div class="card feature">
-        <h3>Issue Triage</h3>
-        <p>Prioritize, reproduce, isolate root cause, and communicate updates</p>
-      </div>
-    </section>
-
-    <section class="two-col" id="about">
-      <div class="card pad">
-        <h2>Professional Summary</h2>
-        <p>
-          I have experience in call centers and customer service. I’m comfortable
-          troubleshooting common technical issues, documenting clear steps, and managing
-          simple project timelines from start to finish.
-        </p>
-      </div>
-
-      <div class="card pad">
-        <h2>What I Bring</h2>
-        <ul class="bullets">
-          <li>Phone, email, and chat support</li>
-          <li>Ticket documentation and escalation notes</li>
-          <li>Knowledge base articles and SOPs</li>
-          <li>Customer empathy + professional communication</li>
-        </ul>
+      <div class="card tile">
+        <h3>Triage & Escalation</h3>
+        <p>Prioritize issues, reproduce quickly, isolate root cause, escalate when needed.</p>
       </div>
     </section>
 
-    <section class="card pad" id="resume">
-      <h2>Resume</h2>
-      <p>
-        Upload your resume PDF as <code>assets/resume.pdf</code>.
-        <br />
-        <a class="link" href="assets/resume.pdf" target="_blank" rel="noreferrer">Open Resume</a>
-      </p>
+    <!-- COMPANY LOGO STRIP (ONLY HOMEPAGE) -->
+    <section class="section card companybar" aria-label="Companies">
+      <div class="label">Companies</div>
+      <div class="logos" aria-label="Company logos">
+        <!-- Google -->
+        <span class="logoicon" title="Google" aria-label="Google">
+          <img src="https://cdn.simpleicons.org/google/ffffff" alt="Google logo">
+        </span>
+
+        <!-- Brightpath Network (placeholder icon until you upload their real logo) -->
+        <span class="logoicon" title="Brightpath Network" aria-label="Brightpath Network">
+          <img src="https://cdn.simpleicons.org/icloud/ffffff" alt="Brightpath Network icon">
+        </span>
+
+        <!-- Global Tech Inc (placeholder icon until you upload their real logo) -->
+        <span class="logoicon" title="Global Tech Inc" aria-label="Global Tech Inc">
+          <img src="https://cdn.simpleicons.org/globe/ffffff" alt="Global Tech Inc icon">
+        </span>
+      </div>
     </section>
 
-    <footer class="footer">
-      <div>© <span id="year"></span> Technical Support Portfolio</div>
+    <!-- FOOTER -->
+    <footer class="footer card">
+      <div>© <span data-year></span> Technical Support Portfolio</div>
       <div class="footer-links">
         <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
         <a href="mailto:you@email.com">Email</a>
-        <a href="https://github.com/YOURUSERNAME" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://github.com/ITechGal" target="_blank" rel="noreferrer">GitHub</a>
       </div>
     </footer>
   </main>
