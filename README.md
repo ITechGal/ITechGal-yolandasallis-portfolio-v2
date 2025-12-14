@@ -1,5 +1,5 @@
 # Technical Support Portfolio
-Live site: https://YOURUSERNAME.github.io
+Live site: https://ITECHGAL-yolandasallis-portfolio-v2
 
 ## What this site includes
 - Dark tech theme homepage
