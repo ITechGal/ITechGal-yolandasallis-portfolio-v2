@@ -103,15 +103,6 @@ a{color:inherit}
   color:rgba(255,255,255,.04);
   pointer-events:none;
 }
-.hero::after{
-  content:"";
-  position:absolute;
-  inset:-40px;
-  background: radial-gradient(600px 260px at 70% 25%, rgba(124,58,237,.16), transparent 55%);
-  filter: blur(10px);
-  z-index:-1;
-  animation: floatGlow 6s ease-in-out infinite;
-}
 
 .kicker{
   display:inline-flex;
