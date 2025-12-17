@@ -202,6 +202,42 @@ h1{margin:12px 0 8px;font-size:46px;line-height:1.05}
   border:1px solid var(--line);
   background:rgba(255,255,255,.04);
 }
+
+/* EXPERIENCE LOGO STRIP */
+.logo-strip {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.logos-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: rgba(234,240,255,.9);
+}
+
+.logo-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 18px 0 8px;
+}
+
+.logo-grid img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(124,58,237,.35);
+  box-shadow: 0 0 12px rgba(124,58,237,.15);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.logo-grid img:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 0 22px rgba(124,58,237,.35);
+}
+
 .logoicon img{width:22px;height:22px; opacity:.95}
 
 .footer{
