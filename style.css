@@ -112,10 +112,6 @@ a{color:inherit}
   z-index:-1;
   animation: floatGlow 6s ease-in-out infinite;
 }
-@keyframes floatGlow{
-  0%,100%{ transform: translateY(0px); opacity:.75; }
-  50%{ transform: translateY(10px); opacity:1; }
-}
 
 .kicker{
   display:inline-flex;
