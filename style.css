@@ -94,6 +94,9 @@ a{color:inherit}
   isolation:isolate;
 }
 .hero::before{
+  display: none;
+}
+
   content:"Tech Portfolio";
   position:absolute;
   left:-10px; top:26px;
