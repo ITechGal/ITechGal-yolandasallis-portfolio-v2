@@ -93,7 +93,7 @@ a{color:inherit}
   overflow:hidden;
   isolation:isolate;
 }
-.hero:before{
+.hero::before{
   display: none;
 }
 
