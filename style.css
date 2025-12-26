@@ -29,8 +29,7 @@ body{
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
   color:var(--text);
   background:
-radial-gradient(900px 480px at 20% 18%, rgba(124, 58, 237, .18), transparent 60%),
-radial-gradient(800px 420px at 85% 25%, rgba(91, 33, 182, .14), transparent 60%),
+
 linear-gradient(180deg, var(--bg), #050816 70%, #040611);
 }
 
@@ -149,6 +148,7 @@ h1{margin:12px 0 8px;font-size:46px;line-height:1.05}
 
 .hero-right{display:grid;place-items:center}
 
+.avatar-ring {
   width:260px;height:260px;border-radius:999px;padding:9px;
   background:radial-gradient(circle at 35% 35%, rgba(124,58,237,.62), rgba(91,33,182,.14));
   border:1px solid rgba(124,58,237,.30);
@@ -159,15 +159,6 @@ h1{margin:12px 0 8px;font-size:46px;line-height:1.05}
   0%,100%{ box-shadow:0 0 0 6px rgba(124,58,237,.10), 0 28px 75px rgba(0,0,0,.38); }
   50%{ box-shadow:0 0 0 10px rgba(124,58,237,.14), 0 34px 90px rgba(0,0,0,.42); }
 
-  .avatar-ring {
-  width: 220px;        /* ORIGINAL CLEAN SIZE */
-  height: 220px;
-  border-radius: 50%;
-  padding: 8px;
-  background: linear-gradient(135deg, #7c4dff, #9c27b0);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .avatar{
