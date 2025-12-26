@@ -158,7 +158,18 @@ h1{margin:12px 0 8px;font-size:46px;line-height:1.05}
 @keyframes ringPulse{
   0%,100%{ box-shadow:0 0 0 6px rgba(124,58,237,.10), 0 28px 75px rgba(0,0,0,.38); }
   50%{ box-shadow:0 0 0 10px rgba(124,58,237,.14), 0 34px 90px rgba(0,0,0,.42); }
+
+  .avatar-ring {
+  width: 220px;        /* ORIGINAL CLEAN SIZE */
+  height: 220px;
+  border-radius: 50%;
+  padding: 8px;
+  background: linear-gradient(135deg, #7c4dff, #9c27b0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .avatar{
   width:100%;height:100%;
   object-fit:cover;border-radius:999px;
