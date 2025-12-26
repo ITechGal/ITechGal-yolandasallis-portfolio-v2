@@ -158,16 +158,6 @@ h1{margin:12px 0 8px;font-size:46px;line-height:1.05}
   0%,100%{ box-shadow:0 0 0 6px rgba(124,58,237,.10), 0 28px 75px rgba(0,0,0,.38); }
   50%{ box-shadow:0 0 0 10px rgba(124,58,237,.14), 0 34px 90px rgba(0,0,0,.42); }
 
-/* OUTER RING */
-.avatar-ring {
-  width: 260px;        /* controls ring size */
-  height: 260px;
-  border-radius: 50%;
-  padding: 8px;        /* thickness of ring */
-  background: linear-gradient(135deg, #7c5cff, #4b2bbf);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .avatar{
