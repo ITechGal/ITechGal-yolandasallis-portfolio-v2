@@ -334,3 +334,30 @@ h1{margin:12px 0 8px;font-size:46px;line-height:1.05}
   transform: translateY(-4px);
   box-shadow: 0 30px 80px rgba(96,165,250,.55);
 }
+
+/* ===== AVATAR SIZE FIX ===== */
+
+/* Keep the avatar ring from getting gigantic */
+.avatar-ring{
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+/* Profile image inside ring */
+.avatar{
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Mobile scaling */
+@media (max-width: 600px){
+  .avatar-ring{ width: 240px; height: 240px; }
+  .avatar{ width: 205px; height: 205px; }
+}
